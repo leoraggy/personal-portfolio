@@ -1,0 +1,15 @@
+:root {
+  --primary: #0f1012;
+  --secondary: #303030;
+  --text: #fafafa;
+  --border: #837650;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--primary);
+  color: var(--text);
+}
