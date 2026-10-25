@@ -114,6 +114,10 @@ body {
   color: #d8c797;
 }
 
+ul li::marker {
+  content: "-  ";
+}
+
 .intro {
   display: grid;
   grid-template-columns: minmax(0, 0.9fr) minmax(0, 1fr);
@@ -388,6 +392,10 @@ body {
     flex-direction: column;
     align-items: stretch;
     gap: 1rem;
+  }
+
+  #experience .flex {
+    display: block;
   }
 
   .position,
